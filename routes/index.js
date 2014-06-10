@@ -10,4 +10,12 @@ router.get('/', function(req, res) {
   });
 });
 
+/*
+
+Most things that we use are very easy to come up with,
+some of them need professionals to design,
+but manufacturing, inventory, accounting and other shit makes creation of new things much much harder, and only some of us can overcome it. Let's make it easier!
+
+*/
+
 module.exports = router;

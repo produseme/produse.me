@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  /* background-color: #333; */
 }
 body {
   color: #fff;
@@ -114,6 +114,10 @@ body {
   padding: 10px 20px;
   font-weight: bold;
 }
+.cover-heading {
+  font-weight: bold;
+  color: lightgreen;
+}
 
 
 /*
@@ -158,4 +162,25 @@ body {
   .cover-container {
     width: 700px;
   }
+}
+
+/*
+ * Background image
+ */
+.background {
+  background: url(/images/background.jpg) no-repeat center center fixed;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ -webkit-filter: blur(3px); 
+  -moz-filter: blur(3px); 
+  -o-filter: blur(3px); 
+  -ms-filter: blur(3px); 
+  filter: blur(3px);
+  filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
+  z-index: -1000;
 }
