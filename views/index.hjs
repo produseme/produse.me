@@ -1,64 +1,74 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8">
-    <title>{{ title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
     <link rel="shortcut icon" href="./images/favicon.ico">
-    <link rel="stylesheet" href="./stylesheets/bootstrap.css">
-    <link rel="stylesheet" href="./stylesheets/bootstrap-responsive.css">
-    <link rel="stylesheet" href="./stylesheets/flat-ui.css">
-    <!-- Using only with Flat-UI (free)-->
-    <link rel="stylesheet" href="./stylesheets/icon-font.css">
-    <!-- end -->
-    <link rel="stylesheet" href="./stylesheets/style.css">
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-        <script src="./javascripts/html5shiv.js"></script>
-    <![endif]-->
-    </head>
-    <body>
-        <!-- header-10 -->
-        <header class="header-10">
-            <div class="container">
-                <div class="navbar span12">
-                    <div class="navbar-inner">
-                        <a class="brand" href="#">produ<span style="color:lightgreen;">s</span>e me</a>
-                        <div class="pull-right">
-                            <ul class="nav">
-                                <li><a href="https://github.com/produseme" style="padding-top:25px;"><img src="./images/github.png" style="width:35px;height:35px;"/></a></li>
-                                <li><a href="https://www.facebook.com/groups/produseme" style="padding-top:25px;"><img src="./images/facebook.png" style="width:35px;height:35px;"/></a></li>                                <li><a href="https://twitter.com/produseme" style="padding-top:25px;"><img src="./images/twitter.png" style="width:35px;height:35px;"/></a></li>                                <li><a href="https://www.youtube.com/user/produseme" style="padding-top:25px;"><img src="./images/youtube.png" style="width:35px;height:35px;"/></a></li>
-                            </ul>                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <section class="header-10-sub v-center">
-            <div class="background" style="background-image:url('./images/background.jpg');-webkit-filter: blur(5px);-moz-filter: blur(5px);-o-filter: blur(5px);-ms-filter:blur(5px);filter: blur(5px);">&nbsp;</div>
-            <div>
-                <div class="container">
-                    <div class="hero-unit" style="text-shadow:1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;">
-                        <h1>Democratize manufacturing</h1>
-                        <p style="opacity:1.0;">Most things that we use are very easy to come up with,<br>some of them need professionals to design,<br>but manufacturing, inventory, accounting and other shit makes creation of new things much much harder, and only some of us can overcome it. Let's make it easier!</p>
-                    </div>
-                </div>
-            </div>
-        </section>       
-        
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="./javascripts/jquery-1.8.3.min.js"></script>
-        <script src="./javascripts/bootstrap.min.js"></script>
-        <script src="./javascripts/jquery.parallax.min.js"></script>
-        <script src="./javascripts/script.js"></script>
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-		  ga('create', 'UA-51294478-1', 'produse.me');
-		  ga('send', 'pageview');
-		</script>
-    </body>
+    <title>Cover Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./stylesheets/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./stylesheets/cover.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Cover</h3>
+              <ul class="nav masthead-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">Cover your page.</h1>
+            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+            <p class="lead">
+              <a href="#" class="btn btn-lg btn-default">Learn more</a>
+            </p>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./javascripts/jquery.min.js"></script>
+    <script src="./javascripts/bootstrap.min.js"></script>
+    <script src="./javascripts/docs.min.js"></script>
+  </body>
 </html>
+
